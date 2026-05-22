@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --medic-teal: 175 60% 42%;
+  --medic-teal-light: 175 60% 54%;
+  --medic-navy: 214 38% 20%;
+  --medic-navy-dark: 214 38% 13%;
+  --medic-gray-bg: 210 20% 96%;
+  --medic-text: 214 30% 20%;
+  --medic-muted: 214 15% 52%;
+  --medic-white: 0 0% 100%;
+  --medic-border: 214 20% 88%;
+  --primary: var(--medic-teal);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(var(--medic-text));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.medic-gradient {
+  background: linear-gradient(135deg, hsl(var(--medic-teal)), hsl(var(--medic-teal-light)));
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out forwards;
+  }
+  .animate-slide-up {
+    animation: slide-up 0.6s ease-out forwards;
+  }
+}
