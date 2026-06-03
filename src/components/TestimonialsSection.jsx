@@ -6,7 +6,7 @@ const testimonials = [
     quote:
       "Sukrutha Healthcare has been our primary pharmaceutical partner for over 20 years. Their reliability and product quality is unmatched in Karnataka.",
     name: "Dr. Sundaresh A.S.",
-    role: "Gynecologist (M.B.B.S., D.A.B., OBG)",
+    role: "Gynecologist (M.B.B.S., D.N.B., OBG)",
     location: "Karnataka",
   },
   {
